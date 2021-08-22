@@ -92,12 +92,12 @@
 	<bean id="task03" class="acme.entities.tasks.Task">
 		<property name="title" value="Clean my car" />
 		<property name="periodInitial" value="2021/03/01 12:30" />
-		<property name="periodFinal" value="2021/03/01 12:45" />
+		<property name="periodFinal" value="2021/03/01 13:45" />
 		<property name="description" value="I have to clean my car" />
 		<property name="link" value="http://lavaderos.com" />
 		<property name="isPublic" value="true" />
 		<property name="manager" ref="managerManager" />
-		<property name="workloadInHours" value="0.15" />
+		<property name="workloadInHours" value="1.15" />
 	</bean>
 	<bean id="task04" class="acme.entities.tasks.Task">
 		<property name="title" value="Go to the doctor" />
