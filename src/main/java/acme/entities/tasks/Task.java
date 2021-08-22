@@ -33,7 +33,7 @@ public class Task extends DomainEntity{
 	// Attributes -------------------------------------------------------------
 	
 	@NotBlank  
-	@Length(min=1, max=80)
+	@Length(min=1, max=79)
 	protected String         title;
 	
 	
@@ -47,7 +47,7 @@ public class Task extends DomainEntity{
 	protected Date           periodFinal;
 	
 	@NotBlank  
-	@Length(min=0, max=500)
+	@Length(min=0, max=499)
 	@Column(length = 512)
 	protected String         description;
 	
