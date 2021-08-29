@@ -13,18 +13,13 @@ who have enroled the Design and Testing subject of the Software Engineering curr
 University of Sevilla.  This project is intended to illustrate how to develop a simple web
 information system. Our github repository is https://github.com/mardiafer13/D02-Devising-a-WIS.git
 
-- CleverCloud credentials:
-    Username: 
-    Password: 
-
 - Application url: 
 
 - Environment variables:
 
-MYSQL_ADDON_HOST=b7xjnkitcvbcypirtenu-mysql.services.clever-cloud.com
-MYSQL_ADDON_DB=b7xjnkitcvbcypirtenu
-MYSQL_ADDON_USER=uo3kyktyixoayngu
+MYSQL_ADDON_HOST=bxsfmh7mfpa8gra60tjy-mysql.services.clever-cloud.com
+MYSQL_ADDON_DB=bxsfmh7mfpa8gra60tjy
+MYSQL_ADDON_USER=u4whbs1j9ksvqcgt
 MYSQL_ADDON_PORT=3306
-MYSQL_ADDON_PASSWORD=cWcS4efpQZ4fx3oWR1WT 
-MYSQL_ADDON_URI=mysql://uo3kyktyixoayngu:cWcS4efpQZ4fx3oWR1WT@b7xjnkitcvbcypirtenu-mysql.services.clever-cloud.com:3306/b7xjnkitcvbcypirtenu
-
+MYSQL_ADDON_PASSWORD=xAx56ksH7fRBHvkw5CQC 
+MYSQL_ADDON_URI=mysql://u4whbs1j9ksvqcgt:xAx56ksH7fRBHvkw5CQC@bxsfmh7mfpa8gra60tjy-mysql.services.clever-cloud.com:3306/bxsfmh7mfpa8gra60tjy
