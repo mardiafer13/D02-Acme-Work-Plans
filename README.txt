@@ -13,7 +13,7 @@ who have enroled the Design and Testing subject of the Software Engineering curr
 University of Sevilla.  This project is intended to illustrate how to develop a simple web
 information system. Our github repository is https://github.com/mardiafer13/D02-Devising-a-WIS.git
 
-- Application url: 
+- Application url: http://app-3e1ebbf8-075c-40dd-9005-d661dc111f67.cleverapps.io/Acme-Work-Plans
 
 - Environment variables:
 
