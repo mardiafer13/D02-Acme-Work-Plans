@@ -366,9 +366,9 @@ Manage &gt;
     <id>UMLNote</id>
     <coordinates>
       <x>927</x>
-      <y>693</y>
+      <y>666</y>
       <w>243</w>
-      <h>261</h>
+      <h>315</h>
     </coordinates>
     <panel_attributes>PeriodInitial must be a date before 
 periodFinal.
@@ -381,12 +381,16 @@ periodInitial and periodFinal must
 be future dates when editing
 the tasks
 
-the workload must be less than or 
+The whole number part of workload
+must be between 0 and 99
+
+The workload must be less than or 
 equal to the difference between dates
 
 The decimal part of workload must be 
 composed of only 2 digits, and must be
 in a range between 0 and 59
+
 
 bg=blue</panel_attributes>
     <additional_attributes/>
@@ -397,11 +401,11 @@ bg=blue</panel_attributes>
       <x>1035</x>
       <y>612</y>
       <w>27</w>
-      <h>99</h>
+      <h>72</h>
     </coordinates>
     <panel_attributes>lt=..
 </panel_attributes>
-    <additional_attributes>10.0;90.0;10.0;10.0</additional_attributes>
+    <additional_attributes>10.0;60.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>UMLClass</id>

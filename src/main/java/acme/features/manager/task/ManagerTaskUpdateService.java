@@ -115,7 +115,7 @@ public class ManagerTaskUpdateService implements AbstractUpdateService<Manager, 
 		if (entity.getPeriodFinal() != null && entity.getPeriodFinal().before(date)) {
 			errors.state(request, false, "periodFinal", "manager.message.form.error.date3");
 		}
-		if (entity.getPeriodFinal()!=null && entity.getPeriodInitial()!=null && entity.getWorkloadInHours() != null) {
+		if (entity.getWorkloadInHours() != null) {
 			final double number = entity.getWorkloadInHours();
 			final String str = String.format("%.2f", number);
 			final String fullNumber = String.valueOf(number);
@@ -136,6 +136,10 @@ public class ManagerTaskUpdateService implements AbstractUpdateService<Manager, 
 				errors.state(request,  false, "workloadInHours", "manager.message.form.error.workload3");
 
 			}
+			if(parteEntera>99 || parteEntera < 0) {
+                errors.state(request, false, "workloadInHours", "manager.message.form.error.workloadHours");
+            }
+			
 		}
 
 	}
